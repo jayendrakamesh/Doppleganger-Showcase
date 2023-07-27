@@ -34,6 +34,8 @@ button{
 	padding: 30px;
 }
 
+
+
 button, img{
 	height: 75%;
 	width: 100%;
@@ -42,8 +44,14 @@ button, img{
 	position: relative;
 }
 
+#desc1, #desc2, #desc3{
+	text-align: center;
+	margin-top: 5px; 
+	opacity: 0%;
+	transition: 1s;
+}
+
 img:hover{
 	height: 100%;
 	width: 100%;
 }
-

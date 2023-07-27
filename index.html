@@ -16,18 +16,55 @@
 		</div>
 		<div class="main">
 			<div class="card">
-				<button onclick="window.location.href='google.html'"><img src="Images/google-thumb.png" alt="google thumbnail"></button>
+				<button id="thumb1" onclick="window.location.href='google.html'"><img src="Images/google-thumb.png" alt="google thumbnail"></button>
+				<p id="desc1">Clone of www.google.com <br> made using Pure HTML & CSS.</p>
 			</div>
 			<div class="card">
-				<button><img src="Images/instagram-thumb.png" alt="instagram thumbnail"></button>
-
+				<button id="thumb2"><img src="Images/instagram-thumb.png" alt="instagram thumbnail"></button>
+				<p id="desc2">Under Construction</p>
 			</div>
 			<div class="card">
-				<button><img src="Images/youtube-thumb.jpg" alt="youtube thumbnail"></button>
-
+				<button id="thumb3"><img src="Images/youtube-thumb.jpg" alt="youtube thumbnail"></button>
+				<p id="desc3">Under Construction</p>
 			</div>
 		</div>
 	</div>	
+
+	<script>
+		const thumbnail = document.getElementById('thumb1');
+  		const description = document.getElementById('desc1');
+  		const thumb2 = document.getElementById('thumb2');
+  		const desc2 = document.getElementById('desc2');
+  		const thumb3 = document.getElementById('thumb3');
+  		const desc3 = document.getElementById('desc3');
+  		
+  		thumbnail.addEventListener('mouseover', () => {
+    		description.style.opacity = '1';
+		});
+
+  		thumbnail.addEventListener('mouseout', () => {
+    	description.style.opacity = '0';
+		});
+
+		thumb2.addEventListener('mouseover', () => {
+    		desc2.style.opacity = '1';
+		});
+
+  		thumb2.addEventListener('mouseout', () => {
+    	desc2.style.opacity = '0';
+		});
+
+		thumb3.addEventListener('mouseover', () => {
+    		desc3.style.opacity = '1';
+		});
+
+  		thumb3.addEventListener('mouseout', () => {
+    	desc3.style.opacity = '0';
+		});
+
+	</script>
+
 </body>
+
 
 </html>
