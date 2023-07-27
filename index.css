@@ -1,0 +1,49 @@
+*{
+	margin: 0px;
+	font-family: 'Alfa Slab One', cursive;
+	color: #C70039;	
+}
+
+.container{
+	display: flex;
+	background-color: black;
+	height: 100vh;
+	flex-direction: column;
+	margin: 0px;
+}
+
+#header-title{
+	margin-bottom: 25px;
+	padding: 10px;
+	border-bottom: 7px solid #C70039;
+	font-weight: lighter;
+	font-size: 25px;
+}
+
+.main{
+	display: flex;
+	justify-content: center;
+}
+
+button{
+	background-color: white;
+	border: 5px solid #C70039;
+}
+
+.card{
+	padding: 30px;
+}
+
+button, img{
+	height: 75%;
+	width: 100%;
+	border-radius: 30px;
+	transition: 0.5s;
+	position: relative;
+}
+
+img:hover{
+	height: 100%;
+	width: 100%;
+}
+
