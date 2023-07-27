@@ -1,2 +1,5 @@
-# google-clone
-This is a google home page clone made while practicing HTML &amp; CSS. At this moment it only fits desktop, will soon try to make it responsive for mobile.
+# Doppleganer-Showcase
+Doppleganger-Showcase is a frontend project that showcases my sites built with Pure HTML, CSS & other Frontend technologies.
+
+# 1-Google Clone
+Is a static site clone of www.google.com as of Jun - 2023. Made with pure HTML & CSS.
